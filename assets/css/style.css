@@ -1,0 +1,41 @@
+
+body {background: #000 url(../images/doggos-big.jpg) no-repeat fixed;
+	background-size: 100% 100%;
+
+}
+
+h1, h2, h3 {
+	font-family: 'Satisfy', cursive;
+	color: #696969;
+}
+
+#hangman {
+	text-align: center;
+	color: #FAFAD2;
+	font: bold;
+	font-family: 'Satisfy', cursive;
+	font-size: 80px;
+}
+
+#container {
+	width: 80%;
+	border-radius: 3px;
+	opacity: 0.8;
+	padding: 40px;
+	background-color: #FFFFF0;
+	margin: 10% auto;
+	text-align: center;
+}
+
+#letters a{
+	color: white;
+	background-color: #00BFFF;
+	border-radius: 8px;
+	padding: 10px;
+	cursor: pointer;
+}
+
+#letters a:hover{
+	color: #FFD700;
+}
+
