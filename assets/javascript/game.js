@@ -51,7 +51,7 @@ My.UpdateLetter = function(letter){
 	My.Word2 = My.WordUArray.join("");
 
 // If player guessed all of the letters correctly; an alert "You win" will pop//
-	if (My.Word1 === My.Word2) {
+	if (My.Word === My.Word2) {
 		alert("YOU WIN! Your next word is...");
 		window.location.reload();
 	}
